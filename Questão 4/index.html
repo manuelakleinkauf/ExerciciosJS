@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    let numeros=new Array()
+    numeros[0]=8
+    numeros.push(5)
+    console.log(numeros)
+ 
+for(i=0;i<=100;i++){
+    if(i%2==1)
+        numeros.push(i)
+}
+for(i=0;i<numeros.length; i++){
+    if (numeros[i]%7==0)
+        console.log("*"+numeros[i])
+    else
+    console.log(numeros[i])
+}
+
+</script>
+</html>
